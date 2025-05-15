@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="nav">
+        <p class="myname">&lt;Amarjit/&gt;</p>
+        <button id="btn1"><i class="fa-solid fa-bars"></i></button>
+        <ul class="un">
+            <li><a href="#home" onclick="link()">Home</a></li>
+            <li><a href="#about" onclick="link()">About</a></li>
+            <li><a href="#skills" onclick="link()">Skill</a> </li>
+            <li><a href="#project" onclick="link()">Projects</a></li>
+            <li><a href="#contact" onclick="link()">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- home -->
+    <div id="home">
+        <div class="home-container1">
+            <p class="home-text1">Hello, My name is <br> Amarjit! </p>
+            <p class="home-text2"> I am a Full Stack Developer.</p>
+            <button class="home-btn"><a href="#contact">Contact Me</a></button>
+        </div>
+        <div class="home-container2"><img src="hero-img.png" alt="Broken Image"></div>
+    </div>
+
+    <!-- about -->
+
+    <p id="about">About Me</p>
+    <div class="about-me">
+        <div class="about-container1"><img src="programmer.png" alt="Broken Image"></div>
+        <div class="about-container2">
+            <p><span>Hello!</span><br>
+                My name is Amarjit. I enjoy creating things that live on the internet. I am a Web Developer, with strong
+                administrative and communication skills. I craft responsive and visually appealing websites that balance
+                design with functionality. My approach involves understanding your goals and translating them into
+                effective web solutions.Dedicated to quality and user experience, I continuously learn and adapt to new
+                technologies.</p>
+        </div>
+    </div>
+
+    <!-- skills -->
+    <p id="skills">Skills</p>
+
+    <div class="skills-container">
+        <div class="skills-image"><img src="html.png" alt="Broken Image">
+            <p>HTML</p>
+        </div>
+        <div class="skills-image"><img src="css.png" alt="Broken Image">
+            <p>CSS</p>
+        </div>
+        <div class="skills-image"><img src="javascript.png" alt="Broken Image">
+            <p>JavaScript</p>
+        </div>
+        <div class="skills-image"><img src="react.png" alt="Broken Image">
+            <p>React.js</p>
+        </div>
+        <div class="skills-image"><img src="tailwind.png" alt="Broken Image">
+            <p>Tailwind CSS</p>
+        </div>
+        <div class="skills-image"><img src="nodejs.png" alt="Broken Image">
+            <p>Node.js</p>
+        </div>
+        <div class="skills-image"><img src="express.png" alt="Broken Image">
+            <p>Express.js</p>
+        </div>
+        <div class="skills-image"><img src="mongodb.png" alt="Broken Image">
+            <p>Mongodb</p>
+        </div>
+        <div class="skills-image"><img src="mongoose.png" alt="Broken Image">
+            <p>Mongoose</p>
+        </div>
+        <div class="skills-image"><img src="postman.png" alt="Broken Image">
+            <p>Postman</p>
+        </div>
+        <div class="skills-image"><img src="npm.png" alt="Broken Image">
+            <p>NPM</p>
+        </div>
+        <div class="skills-image"><img src="php.png" alt="Broken Image">
+            <p>PHP</p>
+        </div>
+        <div class="skills-image"><img src="python.png" alt="Broken Image">
+            <p>Python</p>
+        </div>
+        <div class="skills-image"><img src="sql.png" alt="Broken Image">
+            <p>SQL</p>
+        </div>
+        <div class="skills-image"><img src="netlify.png" alt="Broken Image">
+            <p>Netlify</p>
+        </div>
+        <div class="skills-image"><img src="github.png" alt="Broken Image">
+            <p>Github</p>
+        </div>
+    </div>
+
+    <!-- projects -->
+    <p id="project">Projects</p>
+
+    <div class="projects">
+
+        <div class="projects-container"><img src="password.png" alt="">
+            <p>It generates customizable passwords based on user-selected criteria such as uppercase letter, lowercase
+                letter, numbers, and symbols. It also features password length customization and copy functionality.</p>
+            <div class="icons"><a href="https://github.com/Amarjit-Gupta/password-generator" target="_blank"><i
+                        class="fa-brands fa-github"></i></a></i>
+                <a href="https://mypassword-generator01.netlify.app/" target="_blank"><i
+                        class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+        <div class="projects-container"><img src="ecommerce.png" alt="">
+            <p>This project is a responsive e-commerce website featuring product categories, a dynamic image slider, and
+                interactive product pages. It includes a loader, animations, and a contact form for user engagement.</p>
+            <div class="icons"><a href="https://github.com/Amarjit-Gupta/project" target="_blank"><i
+                        class="fa-brands fa-github"></i></a>
+                <a href="https://amarjit-gupta.github.io/project/" target="_blank"><i
+                        class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+        <div class="projects-container"><img src="weather.png" alt="">
+            <p>This is a weather app built with React, allowing us to search weather details by city. It displays
+                temperature,humidity, wind speed,and temperature,with a light/dark mode toggle and loading indicator.
+            </p>
+            <div class="icons"><a href="https://github.com/Amarjit-Gupta/weather-app" target="_blank"><i
+                        class="fa-brands fa-github"></i></a>
+                <a href="https://weather-app-015.netlify.app/" target="_blank"><i
+                        class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="projects-container"><img src="todo.png" alt="">
+            <p>This todo list allows us to add,edit,delete,clear all tasks and mark tasks as complete. It saves tasks in
+                localstorage and features a colorful, animated background with custom-styled input and buttons.</p>
+            <div class="icons"><a href="https://github.com/Amarjit-Gupta/todo-list01" target="_blank"><i
+                        class="fa-brands fa-github"></i></a>
+                <a href="https://todo-list125.netlify.app/" target="_blank"><i
+                        class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+        <div class="projects-container"><img src="temprature.png" alt="">
+            <p>This project is a temperature conversion tool that converts Celsius, Fahrenheit, Kelvin, and Reaumur
+                scales. It has live updates by JS, done UI with a responsive design, and clear reset button.</p>
+            <div class="icons"><a href="https://github.com/Amarjit-Gupta/Temperature01" target="_blank"><i
+                        class="fa-brands fa-github"></i></a>
+                <a href="https://amarjit-gupta.github.io/Temperature01/" target="_blank"><i
+                        class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+        <div class="projects-container"><img src="signup.png" alt="">
+            <p>This e-commerce web app allows us to sign up, log in, manage products, and perform CRUD operations.
+                Features include product listing, adding, editing, deleting, searching, and secure authentication with
+                private routes.</p>
+            <div class="icons"><a href="https://github.com/Amarjit-Gupta/mern-project-new" target="_blank"><i
+                        class="fa-brands fa-github"></i></a>
+                <a href="https://frontend-uy35.onrender.com/" target="_blank"><i
+                        class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact -->
+    <p id="contact">Contact Me</p>
+
+    <div class="contact-container">
+        <div class="contact-container1">
+            <div class="contact-container1-content"><span>Address: -</span> Kandivali(west), Mumbai - 400067</div>
+            <div class="contact-container1-content"><span>Email Id: -</span> guptaamarjit777@gmail.com</div>
+            <div class="contact-container1-content"><span>WhatsApp No: -</span> 9696587251</div>
+            <div class="contact-container1-content"><span>Linkdin: -</span> <a
+                    href="https://www.linkedin.com/in/akg-a286642bb" target="_blank">Linkdin</a></div>
+        </div>
+        <div class="contact-container2"><img src="contact.png" alt=""></div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">Designed and build by Amarjit <br> <span>@ 2025 All Rights reserved.</span></div>
+    <button id="scroll"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
